@@ -1,0 +1,34 @@
+.ios-ipad-portrait {
+	height: 1024px; 
+	width: 768px;	
+	border: 1px solid #000;
+}
+.ios-ipad-landscape {
+	width: 1024px; 
+	height: 768px;
+	border: 1px solid #000;
+}
+.ios-iphone-landscape {
+	width: 480px;
+	height: 320px;
+	border: 1px solid #000;
+}
+.ios-iphone-portrait {
+	width: 320px;
+	height: 480px;
+	border: 1px solid #000;
+}
+.ios-sidebar {
+	width: 320px;
+	border-right: 1px solid #000;
+	float: left;
+}
+.ios-row {
+	line-height: 44px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom: 1px solid #000;
+}
+.ios-detail {
+	margin-left: 320px;
+}
