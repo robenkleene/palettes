@@ -1,3 +1,7 @@
+.ios-ipad-landscape, ios-ipad-landscape, .ios-iphone-landscape, .ios-iphone-portrait {
+	font-family: "Helvetica", Sans-serif;
+}
+
 .ios-ipad-portrait {
 	height: 1024px; 
 	width: 768px;	
@@ -24,6 +28,8 @@
 	float: left;
 }
 .ios-row {
+	font-weight: bold;
+	font-size: 20px;
 	line-height: 44px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -32,3 +38,20 @@
 .ios-detail {
 	margin-left: 320px;
 }
+.ios-button {
+	font-weight: bold;
+	font-size: 12px;
+	margin: 8px;
+	border: 1px solid #000;
+	padding: 0px 8px;
+	display: inline;
+}
+
+/*
+Old working block level method
+.ios-button {
+	line-height: 26px;
+	margin: 8px;
+	border: 1px solid #000;
+	padding: 0px 8px;
+}*/
